@@ -66,10 +66,8 @@ const usuario = {
 
 const producto = new Producto("Laptop", 1500, 2)
 
-// producto.aumentarStock(0)
 producto.aumentarStock(usuario,2) //no aumenta pq no es admin
 
-// producto.disminuirStock(10)
 producto.disminuirStock(2)
 
 producto.mostrarInformacion(usuario)
